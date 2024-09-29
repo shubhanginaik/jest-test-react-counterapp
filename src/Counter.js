@@ -1,5 +1,5 @@
 import { useState } from "react";
-//import "./Counter.css";
+//import "./counter.css";
 
 const Counter = ({ initialCount }) => {
   const [count, setCount] = useState(initialCount);
@@ -10,11 +10,11 @@ const Counter = ({ initialCount }) => {
   };
 
   const decrementCount = () => {
-    setCount((prev) => prev + 1);
+    setCount((prev) => prev - 1);
   };
 
   const restartCount = () => {
-    setCount(initialCount);
+    setCount(0);
   };
 
   const changeSign = () => {
