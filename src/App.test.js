@@ -4,6 +4,6 @@ import App from "./App";
 
 test("renders learn react link", () => {
   render(<App />);
-  const helloElement = screen.getByText(/hello/i);
-  expect(helloElement).toBeInTheDocument();
+  const headingElement = screen.getByText(/React testing with Jest/i);
+  expect(headingElement).toBeInTheDocument();
 });

@@ -3,7 +3,7 @@ import Counter from "./Counter";
 function App() {
   return (
     <div className="App">
-      <h3>Hello</h3>
+      <h1>React testing with Jest</h1>
       <Counter initialCount={Number(0)} />
     </div>
   );
